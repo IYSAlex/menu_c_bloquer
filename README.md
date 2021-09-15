@@ -1,4 +1,4 @@
-# hook.Add("ContextMenuCreated","CMenuRemove",function()
+hook.Add("ContextMenuCreated","CMenuRemove",function()
     local icons = list.GetForEdit("DesktopWindows")
     for key in pairs(icons) do
         icons[key] = nil
